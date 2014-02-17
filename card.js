@@ -8,6 +8,7 @@ function card(args) {
   self.image = property(args.image,"404.png");
   self.rules = property(args.rules,"");
   self.flavor = property(args.flavor,"");
+  self.rarity = property(args.rarity,"common");
 
   self.icons = property(args.icons,[0]);
   self.connections = property(args.connections,[false,false,false,false,false,false,false,false]);
