@@ -1,0 +1,22 @@
+{
+  "0": {
+    "id": "0",
+    "name": "Apathetic Frog",
+    "flavor": "What's the use?"
+  },
+  "1": {
+    "id": "1",
+    "name": "Stick",
+    "flavor": "For smacking puzzles and things.",
+    "icons": ["atk"],
+    "connections": [false,false,true,false,false,true,false,false]
+  },
+  "2": {
+    "id": "2",
+    "name": "Mecha Santa",
+    "flavor": "I envision a world of joy and presents for all!",
+    "rarity": "uncommon",
+    "icons": ["def","def"],
+    "connections": [false,true,true,false,false,false,false,false]
+  }
+}
