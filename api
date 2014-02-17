@@ -1,13 +1,47 @@
-create_game
+===== CREATE_GAME
+  userID
+  name
 
-join_came
 
-leave_game
 
-place_card
+===== JOIN_GAME
+  userID
+  gameID
 
-choose_card
 
-choose_slot
 
-choose_combo
+===== LEAVE_GAME
+  userID
+  gameID
+
+
+
+===== PLACE_CARD
+  userID
+  gameID
+  boardID
+  cardID
+  slot
+
+
+
+===== CHOOSE_CARD
+  userID
+  gameID
+  cardID
+
+
+
+===== CHOOSE_SLOT
+  userID
+  gameID
+  boardID
+  slot
+
+
+
+===== CHOOSE_COMBO
+  userID
+  gameID
+  boardID
+  combo
