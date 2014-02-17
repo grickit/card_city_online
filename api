@@ -21,26 +21,37 @@
   gameID
   boardID
   cardID
-  slot
+  x
+  y
 
 
 
-===== CHOOSE_CARD
+===== CHOOSE_HAND_CARD
   userID
   gameID
   cardID
 
 
 
-===== CHOOSE_SLOT
+===== CHOOSE_BOARD_CARD
   userID
   gameID
   boardID
-  slot
+  x
+  y
 
 
 
-===== CHOOSE_COMBO
+===== CHOOSE_BOARD_SLOT
+  userID
+  gameID
+  boardID
+  x
+  y
+
+
+
+===== CHOOSE_COMBO_TYPE
   userID
   gameID
   boardID
