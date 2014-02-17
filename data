@@ -1,5 +1,7 @@
 ===== uniqueID
 
+===== uniqueIDList
+
 ===== coordinate
 
 ===== corner
@@ -9,3 +11,15 @@
 ===== string
 
 ===== boolean
+
+===== integer
+
+===== name
+
+===== count
+
+===== width
+
+===== height
+
+===== rarity
