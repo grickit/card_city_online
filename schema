@@ -1,0 +1,112 @@
+AYXIO
+
+===== USER
+userID
+name
+imageID
+creationTime
+collectionID
+winCount
+lossCount
+
+
+
+===== GAME
+gameID
+name
+creatorID
+creationTime
+userList
+boardList
+deckList
+handList
+discardList
+
+
+
+===== CARD
+cardID
+name
+imageID
+setID
+rarity
+ruletext
+flavortext
+
+
+
+===== COLLECTION
+collectionID
+creatorID
+cardList
+
+
+
+===== DECK
+deckID
+creatorID
+creationTime
+name
+imageID
+cardList
+
+
+
+===== IMAGE
+imageID
+creatorID
+creationTime
+reportCount
+
+
+
+===== USER_GAME
+userID
+gameID
+defense
+empty_turns
+
+
+
+===== BOARD_GAME
+boardGameID
+creatorID
+gameID
+width
+height
+cardList
+
+
+
+===== DECK_GAME
+deckID
+creatorID
+gameID
+cardList
+
+
+
+===== HAND_GAME
+handID
+creatorID
+gameID
+cardList
+
+
+
+===== DISCARD_GAME
+discardID
+creatorID
+gameID
+cardList
+
+
+
+
+===== CARD_BOARD
+cardBoardID
+creatorID
+gameID
+boardID
+cardID
+
