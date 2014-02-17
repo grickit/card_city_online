@@ -30,8 +30,8 @@ name
 imageID
 setID
 rarity
-ruletext
-flavortext
+ruleString
+flavorString
 
 
 
@@ -63,8 +63,8 @@ reportCount
 ===== USER_GAME
 userID
 gameID
-defense
-empty_turns
+defenseCount
+emptyTurnsCount
 
 
 
