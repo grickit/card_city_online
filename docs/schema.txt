@@ -21,6 +21,9 @@ boardList
 deckList
 handList
 discardList
+waitingOnPlayer
+waitingForCard
+waitingForAction
 
 
 
